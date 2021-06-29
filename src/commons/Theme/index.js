@@ -5,16 +5,18 @@ const theme = createMuiTheme({
     primary: '#D32F2F',
     secondary: '#00BCD4',
     error: '#E64A19',
+    textColor: '#FFFFFF',
+    defaultTextColor: '#000000',
+    hover: 'rgba(0,0,0,0.08)',
   },
-  typography: {
+  typoraphy: {
     fontFamily: 'Roboto',
   },
   shape: {
     borderRadius: 4,
     backgroundColor: '#7B1FA2',
-    textColor: '#FFFF',
-    border: '#CCCCC',
+    textColor: '#FFFFFF',
+    border: '#CCCCCC',
   },
 });
-
 export default theme;

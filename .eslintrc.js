@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 module.exports = {
   parser: 'babel-eslint',
   parserOptions: {
@@ -24,17 +23,27 @@ module.exports = {
     'react/jsx-one-expression-per-line': 0,
     'react/forbid-prop-types': 0,
     'react/require-default-props': 0,
-    'prettier/prettier': ['error'],
     'no-unused-vars': 1,
     'import/extensions': 0,
     'import/order': 1,
     'react/prefer-stateless-function': 0,
     'no-use-before-define': 0,
     'no-param-reassign': 0,
-    'import/no-useless-path-segment': 0,
+    'import/no-useless-path-segments': 0,
     'import/prefer-default-export': 0,
+    'react/jsx-uses-vars': 2,
+    'react/jsx-closing-bracket-location': 1,
+    'react/jsx-first-prop-new-line': 1,
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto',
+      },
+    ],
     'react/state-in-constructor': 0,
     'react/sort-comp': 0,
+    'react/jsx-props-no-spreading': 0,
+    'import/no-cycle': 0,
   },
   plugins: ['prettier'],
   env: {

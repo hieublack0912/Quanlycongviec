@@ -4,7 +4,7 @@ const styles = () => ({
     alignItems: 'center',
   },
   shape: {
-    padding: '20px',
+    padding: 20,
     margin: 10,
     backgroundColor: 'red',
   },
